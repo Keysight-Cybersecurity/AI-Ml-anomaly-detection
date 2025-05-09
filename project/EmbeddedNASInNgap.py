@@ -49,7 +49,7 @@ with open(csv_file, 'w', newline='', encoding='utf-8') as f:
         except Exception as e:
             print(f"Error processing packet: {e}")
 
-# Optional: Close capture
+
 cap.close()
 
 print(f"\nCSV file '{csv_file}' written successfully.")
