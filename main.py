@@ -84,11 +84,11 @@ for packet in packet_data_list:
     normalized_packet = {key: packet.get(key, "") for key in first_keys_order}
     normalized_data.append(normalized_packet)
 
-# Convert to DataFrame
+# Convert to DataFrame using pandas
 df = pd.DataFrame(normalized_data)
 
 # Save to CSV with comma as delimiter
-df.to_csv("data.csv", index=False, sep=";")  
+df.to_csv("data.csv", index=False, sep=";") 
 
 
 
