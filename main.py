@@ -85,6 +85,8 @@ for packet in packet_data_list:
     normalized_data.append(normalized_packet)
 
 # Convert to DataFrame using pandas
+
+
 df = pd.DataFrame(normalized_data)
 
 # Save to CSV with comma as delimiter
