@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 # List of multiple pcap files to process
 pcap_files = [
     "pcap/AMF_3_1.cap", # Dataset with malicious samples (Replay attack)
-    "pcap/ens20.pcap", # Dataset with malicious samples (Replay attack)
     "pcap/lo.pcap", # Benign samples
     
     # more can be added here as needed
